@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>projet</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/19b2120352.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="container">
+
+      <div class="navigation">
+        <button type="button" name="button" class="menu-burger"> <i class="fas fa-bars"></i></button>
+        <a href="#" class="logo"> <img src="images/logo.png" alt="">
+        </a>
+        <ul class="main-navigation">
+          <li><a href="#"><i class="fas fa-home"></i></a></li>
+          <li><a href="#">MODE</a></li>
+          <li><a href="#">ACCESOIRES</a></li>
+          <li><a href="#">HISTOIRE</a></li>
+        </ul>
+        <ul class="scnd-navigation">
+          <li><a href="#" class="icons"><i class="far fa-heart"></i></a></li>
+          <li><a href="#" class="icons"><i class="far fa-user"></i></a></li>
+          <li><a href="#" class="icons" id="bag-shop"><i class="fas fa-luggage-cart"></i>
+            </a></li>
+          <p id="number_articles">0</p>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+
+
+      <div class="main-head">
+
+        <div class="w70 h100">
+          <img src="images/newheader.jpg" alt="">
+        </div>
+        <div class="w30">
+          <div class="h70">
+            <h1>LES <br>COULEURS <br>DE <br> L'AFRIQUE <br>CHEZ VOUS</h1>
+          </div>
+          <div class="h30">
+            <p><a href="#">DÉCOUVRIR</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <!-- SECTION -->
+    <section>
+
+      <div class="container">
+        <!-- CATÉGORIE 1 -->
+        <div class="title_category">
+          <h2> CATÉGORIES</h2>
+        </div>
+
+        <article class="category_mode">
+          <div class="d-flex">
+            <div class="text_mode_h2">
+              <h2>PRET A PORTER AUTOMNE 2020</h2>
+            </div>
+            <div class="img_mode">
+              <img src="images/category.jpg" alt="">
+            </div>
+          </div>
+        </article>
+
+        <!-- CATÉGORIE 2-->
+
+        <article class="category_acess">
+          <div class="text_acess">
+            <div class="text_acess_h2">
+              <h2>BIJOUX EN OR</h2>
+            </div>
+          </div>
+          <div class="img_acess">
+            <img src="images/acess.jpg" alt="">
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <!-- section 2 -->
+    <!-- CATÉGORIE 3 HISTOIRE -->
+    <section class="histoire">
+      <div class="container">
+        <div class="text_histoire">
+          <h2>DECOUVREZ L'HISTOIRE DE LA RDC EN IMAGE</h2>
+          <p><a href="#" class="shadow">DÉCOUVRIR</a></p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="articles-to-sell">
+      <!-- PREMIÈRE COLONNE DES PRODUITS -->
+      <div class="title_category container">
+        <h2> SELECTION AUTOMNE </h2>
+      </div>
+      <div class="container">
+
+        <div class="columnleft">
+          <article class="single-product shadow">
+            <!-- ADD HEART -->
+            <div class="product_image">
+              <div class="overlay">
+                <a href="#" class="add-fav"><i class="far fa-heart"></i></a>
+              </div>
+              <img src="images/photo2.jpg" alt="">
+            </div>
+
+            <h3>le nom du produit</h3>
+            <div class="price_product">
+              <span class="product_item">
+                <a class="shadow"><span id="product1">DÉCOUVRIR</span></a>
+              </span>
+              <span class="price_item price">
+                <span>200$</span>
+              </span>
+            </div>
+
+          </article>
+
+          <!-- MODAL article 1 -->
+          <div class="modal" id="Mymodal">
+            <div class="modal_content">
+              <img class="close" src="images/photo2.jpg" alt="">
+              <span close>200$</span>
+              <p>robe en tissu africain</p>
+            </div>
+
+          </div>
+
+          <article class="single-product shadow">
+            <div class="product_image">
+              <div class="overlay">
+                <a href="#" class="add-fav"><i class="far fa-heart"></i></a>
+              </div>
+              <img src="images/photo2.jpg" alt="">
+            </div>
+            <h3>le nom du produit</h3>
+            <div class="price_product">
+              <span class="product_item">
+                <a class="shadow"><span id="product2">DÉCOUVRIR</span></a>
+              </span>
+              <span class="price_item price">
+                <span>200$</span>
+              </span>
+            </div>
+          </article>
+
+          <article class="single-product shadow">
+            <div class="product_image">
+              <div class="overlay">
+                <a href="#" class="add-fav"><i class="far fa-heart"></i></a>
+              </div>
+              <img src="images/photo2.jpg" alt="">
+            </div>
+            <h3>le nom du produit</h3>
+            <div class="price_product">
+              <span class="product_item">
+                <a class="shadow"><span id="product3">DÉCOUVRIR</span></a>
+              </span>
+              <span class="price_item price">
+                <span>200$</span>
+              </span>
+            </div>
+          </article>
+        </div>
+
+        <!-- DEUXIÈME LIGNE DES PRODUITS -->
+
+        <div class="columnright">
+          <article class="single-product shadow">
+            <!-- ADD HEART -->
+            <div class="product_image">
+              <div class="overlay">
+                <a href="#" class="add-fav"><i class="far fa-heart"></i></a>
+              </div>
+              <img src="images/photo3.jpg" alt="">
+            </div>
+
+            <h3>le nom du produit</h3>
+            <div class="price_product">
+              <span class="product_item">
+                <a href="#" class="shadow"><span>DÉCOUVRIR</span></a>
+              </span>
+              <span class="price_item price">
+                <span>200$</span>
+              </span>
+            </div>
+
+          </article>
+
+          <article class="single-product shadow">
+            <div class="product_image">
+              <div class="overlay">
+                <a href="#" class="add-fav"><i class="far fa-heart"></i></a>
+              </div>
+              <img src="images/photo3.jpg" alt="">
+            </div>
+            <h3>le nom du produit</h3>
+            <div class="price_product">
+              <span class="product_item">
+                <a href="#" class="shadow"><span>DÉCOUVRIR</span></a>
+              </span>
+              <span class="price_item price">
+                <span>200$</span>
+              </span>
+            </div>
+          </article>
+
+          <article class="single-product shadow">
+            <div class="product_image">
+              <div class="overlay">
+                <a href="#" class="add-fav"><i class="far fa-heart"></i></a>
+              </div>
+              <img src="images/photo3.jpg" alt="">
+            </div>
+            <h3>le nom du produit</h3>
+            <div class="price_product">
+              <span class="product_item">
+                <a href="#" class="shadow"><span>DÉCOUVRIR</span></a>
+              </span>
+              <span class="price_item price">
+                <span>200$</span>
+              </span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 4-->
+
+    <section class="banner">
+      <div class="container">
+        <div class="promotional_banner">
+          <h2> <strong>-15% des réductions </strong> jusqu’au 30 novembre sur l’ensemble du site pour 200 euros d’achats.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5 -->
+    <section class="advantages">
+
+      <div class="container">
+        <div class="title_category title-add">
+          <h2> AVANTAGES </h2>
+        </div>
+        <div class="row_add">
+          <article class="column_advantages">
+            <a href="#" class="icons_add"><i class="fas fa-gift"></i></a>
+            <h3>L'ART D'OFFRIR</h3>
+            <p>Votre commande sera accompagnée d’un personne <br>d’un message personnalisé par nos soins et <br>d’un petit livret racontant l’histoire du bijoux ou du <br>vetement que vous aurez commander.</p>
+          </article>
+
+          <article class="column_advantages">
+            <a href="#" class="icons_add"><i class="fas fa-truck-moving"></i></a>
+            <h3>LIVRAISON OFFERTE</h3>
+            <p>Livraison standard offerte pour toute commande</p>
+          </article>
+
+          <article class="column_advantages">
+            <a href="#" class="icons_add"><i class="fas fa-undo-alt"></i></a>
+            <h3>RETOURS OFFERTS</h3>
+            <p>Si vous souhaitez fair un retour <br>de votre commande pour échange ou rémise,<br> nous vous proposons de le retourner gratuitement.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <!-- FOOTER NEWSLETTER -->
+  <!-- <footer>
+    <div class="page-footer container">
+      <div class="newletter w33">
+        <span class="title-newletter">
+          <span class="text_news">NEWSLETTER</span>
+        </span>
+        <p>INSCRIVEZ-VOUS ET SUIVEZ LES DERNIÈRES ACTUALITÉS DE LA MAISON</p>
+        <form class="content" action="index.html" method="post">
+          <div class="news">
+            <span>
+              <input type="email" name="" value="Votre email">
+            </span>
+          </div>
+          <button type="button" class="button-link" name="button">
+            <span> <span>OK</span>
+            </span>
+          </button>
+        </form>
+      </div> -->
+
+      <!-- FOOTER LINKS -->
+      <!-- <nav class="w33 footer-navigation">
+        <ul>
+          <li><a>Contact</a></li>
+          <li><a>Livraison & retours</a></li>
+          <li><a>FAQ</a></li>
+          <li><a>Conditions générales de Vente</a></li>
+          <li><a>Mentions légales</a></li>
+          <li><a>Politique de vie privée</a></li>
+          <li><a>Carrières</a></li>
+        </ul>
+      </nav> -->
+
+      <!-- FOOTER RÉSEAU SOCIAL ET PAYS -->
+      <!-- <div class="w33">
+        <div class="social-media">
+          <nav class="navigation-footer">
+            <span class="text-social-media">
+              <span>SUIVEZ-NOUS</span>
+            </span>
+            <ul class="media">
+              <li>
+                <a class="icons-foot"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a class="icons-foot">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a class="icons-foot"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+
+        <div class="select-locale w33">
+          <span class="title-newletter">
+            <span class="text_country">PAYS/RÉGION</span>
+          </span>
+          <form class="content content_locale" action="index.html" method="post">
+            <div class="news">
+              <span>
+                <input type="email" name="" value="PAYS/RÉGION">
+              </span>
+            </div>
+            <button type="button" class="button-link" name="button">
+              <span> <span><a><i class="fas fa-arrow-down"></i>
+                  </a></span>
+              </span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+
+    </div>
+  </footer> -->
+
+
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

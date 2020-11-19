@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Amiri', serif;
+}
+.container {
+  width: 90%;
+  margin:auto;
+}
+
+.main-navigation{
+  display:flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+h1, h2, h3, h4 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #B75249;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+​ h3 {
+  font-size: 15px;
+  margin-bottom: : 15px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+/* navigation */
+
+nav li {
+  display: inline;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+nav .menu-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav .topleft {
+  /* margin-right: 400px; */
+  /* margin-left: 10px; */
+  /* width: 40%; */
+}
+
+nav .topright {
+  /* margin-right: 10px; */
+  /* margin-left: 400px; */
+  padding-top: 100px;
+  padding: 52PX 30PX 0PX 0PX;
+  font-size: 2rem;
+}
+
+nav .center {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding: 10px;
+  word-spacing: 15px;
+  color: #B75249;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.h70 {
+  height: 70%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.h30 {
+  height: 30%;
+}
+
+/* fin de la navigation */
+/* HEADER */
+header {
+  background-size: cover;
+}
+
+.head {
+  display: flex;
+}
+
+/* FIN HEADER */
+.d-flex {
+  display: flex;
+}
+
+.categoryright {
+  border: solid;
+  border-color: black;
+  height: 150px;
+  padding: 40px 70px 140px 115px;
+  margin-left: -50px;
+  margin-top: 82px;
+}
+
+.categoryleft{
+  border:solid;
+  border-color: black;
+  height:150px;
+  padding: 40px 70px 140px 110px;
+  margin-right: -50px;
+  margin-top: 82px;
+}
+
+.imgcategory {
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: calc(100% /2);
+  height: 350px;
+}
+.mode {
+  background-image: url("../images/category.jpg");
+  justify-content: flex-end;
+}
+.acess{
+  background-image: url("../images/acess.jpg");
+}
+.image-histoire{
+  background-image: url("../images/photo-1.jpg");
+  background-position: center 30%;
+  background-size: cover;
+  color: white;
+  margin-top: 63px;
+  padding: 100px 0;
+}
